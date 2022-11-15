@@ -2,19 +2,19 @@
 This script generates RSA keys of arbitrary modulus size and saves them in `PEM` format.
 **The output should only be used for research as small keys break the security of RSA.**
 
-TO use the script you need **PyCryptoDome**, install with:
+To use the script you need **PyCryptoDome**, install with:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-To generate a 20 bit key, do a:
+Generate a 20 bit key with:
 
 ```bash
 python main.py 20
 ```
 
-To generate keys of sizes 10 to 256 bit, do a:
+Generate keys of sizes 10 to 256 bit:
 
 ```bash
 for i in {10..256}; do
